@@ -1,0 +1,8 @@
+
+<div id="bouton" style="width: 200px; height: 200px; background-color: red;"></div>
+
+<script>
+    const bouton = document.querySelector("#bouton");
+
+    bouton.addEventListener("click", e => console.log("Tu m'as cliqué !"));
+</script>
